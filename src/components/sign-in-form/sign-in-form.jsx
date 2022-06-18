@@ -1,12 +1,12 @@
 import { useState } from "react";
 
-import FormInput from "../form-input/form-input.component";
-import Button, { BUTTON_TYPE_CLASSES } from "../button/button.component";
+import FormInput from "../form-input/form-input";
+import Button, { BUTTON_TYPE_CLASSES } from "../button/button";
 
 import {
 	signInAuthUserWithEmailAndPassword,
 	signInWithGooglePopup,
-} from "../../utils/firebase/firebase.utils";
+} from "../../utils/firebase/firebase";
 
 import { SignInContainer, ButtonsContainer } from "./sign-in-form.styles";
 
